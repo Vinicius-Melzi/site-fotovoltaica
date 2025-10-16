@@ -26,3 +26,8 @@ img{
 ul{
     list-style-type: none;
 }
+
+input, button{
+    border-radius: 16px;
+}
+

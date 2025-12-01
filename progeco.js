@@ -12,7 +12,7 @@ function principal(){
 console.log(eco)
 
 resposta.innerHTML = ``
-resposta.innerHTML += `Parabéns! Você economizou: ${eco} Kw <br>`
+resposta.innerHTML += `Parabéns! Você economizou: ${eco} Kw<br>`
 
 }
 

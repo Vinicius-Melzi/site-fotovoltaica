@@ -33,7 +33,7 @@ main div a{
     padding: 15px 25px;
     border-radius: 16px;
     font-weight: bold;
-    font-size: 1.1em;
+    font-size: 1.1rem;
     flex-grow: 1; 
     text-align: center;
     border: 2px solid; 

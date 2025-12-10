@@ -13,7 +13,7 @@
             <a href="./arduino.html">Sobre Arduino</a>
             <a href="./multimetro.html">Sobre Multímetro</a>
             <a href="./testes.html">Testes Realizados</a>
-            <a href="./arduino.html">Fontes</a>
+            <a href="./fontes_electro.html">Fontes</a>
         </nav>
     </header>
     <main>
@@ -24,7 +24,7 @@
         <p>A programação do Arduino é feita em uma linguagem baseada em C/C++, utilizando a IDE (Ambiente de Desenvolvimento Integrado do Arduino), que é onde você escreve, compila e envia o código para a placa.</p>
         
 
-[Image of Arduino Uno board labeled with main components]
+<img src="../img/ard_01.jpg" alt="Arduino">
 
 
         <h2>Conceitos de Entradas e Saídas no Arduino</h2>
@@ -33,8 +33,8 @@
         Entrada Digital
         <ul>
             <li>O que é: Leitura de dois estados distintos (ligado ou desligado).</li>
-            <li>Binário: Representado por **0** (LOW) ou **1** (HIGH).</li>
-            <li>Volts: O Arduino interpreta **0V (GND)** como LOW e **5V** (ou próximo disso) como HIGH.</li>
+            <li>Binário: Representado por 0 (LOW) ou 1 (HIGH).</li>
+            <li>Volts: O Arduino interpreta 0V (GND) como LOW e 5V (ou próximo disso) como HIGH.</li>
         </ul>
 
         Saída Digital
@@ -47,13 +47,13 @@
         Entrada Analógica
         <ul>
             <li>O que é: Leitura de um valor contínuo, não apenas "ligado" ou "desligado" (ex: um sensor de luz).</li>
-            <li>**Resolução:** O Arduino tem uma resolução de **10 bits** para a Entrada Analógica.</li>
-            <li>**Volts e Binário: Isso significa que ele consegue mapear a tensão de 0V a 5V em 1024 valores binários (de 0 a 2^10 - 1 = 1023).</li>
+            <li>Resolução: O Arduino tem uma resolução de 10 bits para a Entrada Analógica.</li>
+            <li>Volts e Binário: Isso significa que ele consegue mapear a tensão de 0V a 5V em 1024 valores binários (de 0 a 2^10 - 1 = 1023).</li>
         </ul>
 
         Saída Analógica (PWM - Modulação por Largura de Pulso)
         <ul>
-            <li>O que é:*Simula uma tensão intermediária para controlar a intensidade (ex: brilho de um LED).</li>
+            <li>O que é: Simula uma tensão intermediária para controlar a intensidade (ex: brilho de um LED).</li>
             <li>Não é analógica de verdade: O Arduino usa PWM para simular isso, ligando e desligando rapidamente.</li>
             <li>Volts: O valor de PWM (0 a 255) determina o "ciclo de trabalho" do sinal de 5V.</li>
         </ul>

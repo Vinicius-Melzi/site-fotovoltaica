@@ -6,6 +6,8 @@ body{
     font-size: 16px
 }
 
+
+
 a{
     text-decoration: none;
     margin-right: 8px;
@@ -18,6 +20,17 @@ a:hover{
     color: gold;
     border-radius: 16px;
 }
+
+img{
+    width: 360px;    
+    height: auto;          
+    display: block;
+    border: 3px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 15px auto;
+}
+
 
 input, button{
     border-radius: 16px;

@@ -1,0 +1,33 @@
+body{
+    background: linear-gradient(to right, rgb(226, 212, 83), rgb(228, 185, 43), rgb(226, 212, 83));
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin-top: 1.5rem;
+    font-size: 16px
+}
+
+a{
+    text-decoration: none;
+    margin-right: 8px;
+    padding: 5px;
+}
+
+a:hover{
+    background-color: rgb(134, 2, 196);
+    color: black;
+    border-radius: 16px;
+}
+
+img{
+    border-radius: 8px;
+    border-style: solid;
+}
+
+ul{
+    list-style-type: none;
+}
+
+input, button{
+    border-radius: 16px;
+}
+

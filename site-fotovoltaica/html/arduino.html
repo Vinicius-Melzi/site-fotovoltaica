@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style_eletro.css">
+    <title>Sobre Arduino: Conceitos e Programação</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="./electro.html">Página Principal</a>
+            <a href="./arduino.html">Sobre Arduino</a>
+            <a href="./multimetro.html">Sobre Multímetro</a>
+            <a href="./testes.html">Testes Realizados</a>
+            <a href="./arduino.html">Fontes</a>
+        </nav>
+    </header>
+    <main>
+        <h1>O que é e Como Funciona o Arduino?</h1>
+
+        <h2>Microcontrolador e Programação</h2>
+        <p>O Arduino é baseado em um microcontrolador um pequeno computador em um chip capaz de executar um programa. O modelo mais comum (como o Arduino Uno) utiliza o ATmega328P fabricado pela Microchip Technology (antiga Atmel).</p>
+        <p>A programação do Arduino é feita em uma linguagem baseada em C/C++, utilizando a IDE (Ambiente de Desenvolvimento Integrado do Arduino), que é onde você escreve, compila e envia o código para a placa.</p>
+        
+
+[Image of Arduino Uno board labeled with main components]
+
+
+        <h2>Conceitos de Entradas e Saídas no Arduino</h2>
+        <p>As interações do Arduino com o mundo são feitas através de suas portas de Entrada/Saída (I/O):</p>
+
+        Entrada Digital
+        <ul>
+            <li>O que é: Leitura de dois estados distintos (ligado ou desligado).</li>
+            <li>Binário: Representado por **0** (LOW) ou **1** (HIGH).</li>
+            <li>Volts: O Arduino interpreta **0V (GND)** como LOW e **5V** (ou próximo disso) como HIGH.</li>
+        </ul>
+
+        Saída Digital
+        <ul>
+            <li>O que é: Envio de sinal para ligar ou desligar um componente (ex: LED).</li>
+            <li>Binário: O Arduino envia 0 (LOW) ou 1 (HIGH).</li>
+            <li>Volts: A saída digital do Arduino é de aproximadamente 0V para LOW e 5V para HIGH.</li>
+        </ul>
+
+        Entrada Analógica
+        <ul>
+            <li>O que é: Leitura de um valor contínuo, não apenas "ligado" ou "desligado" (ex: um sensor de luz).</li>
+            <li>**Resolução:** O Arduino tem uma resolução de **10 bits** para a Entrada Analógica.</li>
+            <li>**Volts e Binário: Isso significa que ele consegue mapear a tensão de 0V a 5V em 1024 valores binários (de 0 a 2^10 - 1 = 1023).</li>
+        </ul>
+
+        Saída Analógica (PWM - Modulação por Largura de Pulso)
+        <ul>
+            <li>O que é:*Simula uma tensão intermediária para controlar a intensidade (ex: brilho de um LED).</li>
+            <li>Não é analógica de verdade: O Arduino usa PWM para simular isso, ligando e desligando rapidamente.</li>
+            <li>Volts: O valor de PWM (0 a 255) determina o "ciclo de trabalho" do sinal de 5V.</li>
+        </ul>
+
+    </main>
+    <footer>
+        <small>
+            <br><br><br><br>
+            Todos os Direitos Reservados &copy; Vinicius de Souza Melzi 2025 &trade;
+        </small>
+    </footer>
+</body>
+</html>
